@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+    <style>/* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light border */
+        }
+        
+        th {
+            background: rgba(255, 255, 255, 0.2); /* Slightly darker background for headers */
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: rgba(255, 255, 255, 0.05); /* Hover effect for rows */
+        }</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Movie Ratings</h1>
+            <p>Top-rated movies of all time.</p>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Movie Name</th>
+                            <th>Genre</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Shawshank Redemption</td>
+                            <td>Drama</td>
+                            <td>9.3</td>
+                        </tr>
+                        <tr>
+                            <td>The Godfather</td>
+                            <td>Crime</td>
+                            <td>9.2</td>
+                        </tr>
+                        <tr>
+                            <td>The Dark Knight</td>
+                            <td>Action</td>
+                            <td>9.0</td>
+                        </tr>
+                        <tr>
+                            <td>Pulp Fiction</td>
+                            <td>Crime</td>
+                            <td>8.9</td>
+                        </tr>
+                        <tr>
+                            <td>Inception</td>
+                            <td>Sci-Fi</td>
+                            <td>8.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Nithin Full-Stack Assignment</p>
+            <button onclick="window.location.href='index.html'">BACK</button>
+        </footer>
+    </div>
+</body>

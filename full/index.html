@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        header h1 {
+            font-size: 3rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Website</h1>
+            <p>Select a page to explore different HTML features.</p>
+        </header>
+        <nav>
+            <div> 
+                <a href="text-format.html">Text Formatting</a>
+                <a href="lists.html">Lists</a>
+            </div>
+            
+           <div> 
+            <a href="tables.html">Tables</a>
+            <a href="forms.html">Forms</a>
+        </div>
+           
+        </nav>
+        <footer>
+            <p>&copy; 2025 Nithin Full-Stack Assignment</p>
+        </footer>
+    </div>
+</body>
+</html>

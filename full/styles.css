@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container with Glass Morphism Effect */
+.container {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Header with Floating Animation */
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation: float 3s ease-in-out infinite; /* Floating effect */
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Navigation Links with Hover Effect */
+nav a {
+    display: block;
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(100, 149, 237, 0.3); /* Light blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+/* Footer with Subtle Border */
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Light border */
+}
+
+/* Buttons with Hover Effect */
+button {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: rgba(100, 149, 237, 0.3); /* Light blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+  
